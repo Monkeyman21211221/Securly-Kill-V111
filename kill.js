@@ -1,15 +1,15 @@
 // log credits to the console
-console.log('made by zek-c!')
+console.log('stolen by Monkeyman!')
 //just a variable, does nothing.
-var madeByZekC='Made by Zek-C. Free to modify and distribute!';
+var madeByZekC='Stolen by Monkeyman. Free to modify and distribute!';
 // alert credits
-alert('Made by zek-c');
+alert('Stolen by Monkeyman');
 // add this for check to work
 // create a new paragraph element
 var pCheck = document.createElement("p");
 
 // add stuff
-pCheck.textContent = "Made by zek-c";
+pCheck.textContent = "Stolen by Monkeyman";
 
 // attach it to the body
 document.body.appendChild(pCheck);
@@ -19,7 +19,7 @@ setTimeout(function() {
 }, 1000);
 function check() {
 document.body
-if (document.body.textContent.includes("zek-c")) {
+if (document.body.textContent.includes("Stolen by Monkeyman")) {
     var modified = "This code appears to be unmodified. Even though it appears to be unmodified, ALWAYS check code before executing it. The original can be found at https://github.com/zek-c/securly-kill-v111. Are you sure you want to run this code?";
 } else {
     var modified = "This code appears to be modified. This may be a false alert. if you know what youre doing or got this code from the correct place, proceed. if else, ALWAYS check code before executing it. The source can be found at https://github.com/zek-c/securly-kill-v111. Are you sure you want to run this code?";
